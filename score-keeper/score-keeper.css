@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: "Newsreader", serif;
+}
+
+hr {
+  align-self: center;
+  width: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#container {
+  box-sizing: border-box;
+  padding-left: 10px;
+  box-sizing: border-box;
+  margin: 40px auto;
+  border: 7px solid rgb(22, 29, 111, 0.4);
+  line-height: 40px;
+  width: 600px;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  z-index: +1;
+  box-shadow: 10px 10px 5px grey;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+  display: inline-block;
+  height: 300px;
+  margin: 10px auto;
+}
+input {
+  width: 60px;
+  border-radius: 40px;
+  outline: none;
+  padding-left: 5px;
+  height: 2em;
+  border-color: lightcyan;
+}
+.winner {
+  color: green;
+  font-weight: 700;
+}
+.loser {
+  color: red;
+  font-weight: 700;
+}
+
+#score {
+  font-size: 2.5em;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#heading {
+  text-align: center;
+}
+
+#buttons {
+  text-align: center;
+  margin: 5px auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#buttons button {
+  border: none;
+  border-radius: 20px;
+  height: 50px;
+  width: calc(100% / 3);
+  outline: none;
+  transition: all 0.3s;
+}
+#buttons button:nth-of-type(1) {
+  background-color: aqua;
+}
+#buttons button:nth-of-type(2) {
+  background-color: #ffba08;
+}
+#buttons button:nth-of-type(3) {
+  background-color: #06d6a0;
+}
+
+#buttons button:hover {
+  box-shadow: 0 0 5px 2px #fff;
+}
+
+#buttons button:nth-of-type(1):hover {
+  background-color: #f8fb32;
+}

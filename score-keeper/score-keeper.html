@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1.0, width=device-width">
+        <meta name="keywords" content="score-keeper">
+        <link href="score-keeper.css" rel="stylesheet">
+        <title> Game score keeper</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <img src="https://images.freeimages.com/images/small-previews/22b/pool-balls-1-1558239.jpg" alt="score keeper" title="game score keeper">
+            <p id="heading">Score Keeper</p>
+            <hr>
+            <div>
+               <p id="score"> <span id="player-one-display"> 0 </span> - <span id="player-two-display"> 0 </span> </p>
+               <p>Use the below button to set the winning Score</p>
+               <p><label for="number">Playing to</label> <input type="number" min="0" value="0" id="number"></p>
+               <div id="buttons">
+                <button id="player-one-button"> +1 Player One</button> <button id="player-two-button"> +1 Player Two</button> <button id="reset"> Reset</button>
+               </div>
+            </div>
+        </div>
+        <script src="score-keeper.js"></script>
+    </body>
+</html>
